@@ -1,14 +1,14 @@
 package model;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
 @ToString
 @Component
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class Employee {
     private String firstName;
